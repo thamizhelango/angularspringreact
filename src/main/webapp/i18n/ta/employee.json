@@ -1,0 +1,36 @@
+{
+  "myApp": {
+    "employee": {
+      "home": {
+        "title": "Employees",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Employee-ஐ உருவாக்கு",
+        "createOrEditLabel": "Employee -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Employees found"
+      },
+      "created": "Employee புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Employee மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Employee நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Employee {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "hireDate": "Hire Date",
+      "salary": "Salary",
+      "commissionPct": "Commission Pct",
+      "job": "Job",
+      "manager": "Manager",
+      "department": "Department",
+      "help": {
+        "firstName": "The firstname attribute."
+      }
+    }
+  }
+}

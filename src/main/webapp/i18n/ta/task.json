@@ -1,0 +1,26 @@
+{
+  "myApp": {
+    "task": {
+      "home": {
+        "title": "Tasks",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Task-ஐ உருவாக்கு",
+        "createOrEditLabel": "Task -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Tasks found"
+      },
+      "created": "Task புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Task மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Task நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Task {{ id }}?"
+      },
+      "detail": {
+        "title": "Task"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "job": "Job"
+    }
+  }
+}

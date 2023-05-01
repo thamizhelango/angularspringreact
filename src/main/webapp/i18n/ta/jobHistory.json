@@ -1,0 +1,29 @@
+{
+  "myApp": {
+    "jobHistory": {
+      "home": {
+        "title": "Job Histories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Job History-ஐ உருவாக்கு",
+        "createOrEditLabel": "Job History -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Job Histories found"
+      },
+      "created": "Job History புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Job History மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Job History நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Job History {{ id }}?"
+      },
+      "detail": {
+        "title": "Job History"
+      },
+      "id": "ID",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "language": "Language",
+      "job": "Job",
+      "department": "Department",
+      "employee": "Employee"
+    }
+  }
+}

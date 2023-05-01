@@ -1,0 +1,32 @@
+# This configuration is intended for development purpose, it's **your** responsibility to harden it for production
+version: '3.8'
+services:
+  myapp-app:
+    image: myapp
+    environment:
+      - _JAVA_OPTIONS=-Xmx512m -Xms256m
+      - SPRING_PROFILES_ACTIVE=prod,api-docs
+      - MANAGEMENT_METRICS_EXPORT_PROMETHEUS_ENABLED=true
+      - SPRING_R2DBC_URL=r2dbc:mssql://myapp-mssql:1433/myApp
+      - SPRING_LIQUIBASE_URL=jdbc:sqlserver://myapp-mssql:1433;database=myApp;encrypt=false
+      - JHIPSTER_SLEEP=30 # gives time for other services to boot before the application
+    # If you want to expose these ports outside your dev PC,
+    # remove the "127.0.0.1:" prefix
+    ports:
+      - 127.0.0.1:8080:8080
+  myapp-mssql:
+    image: mcr.microsoft.com/mssql/server:2019-CU16-GDR1-ubuntu-20.04
+    # volumes are not supported on macOS
+    # volumes:
+    #   - ~/volumes/jhipster/tempdb/mssql/:/var/opt/mssql/data/
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_PID=Express
+      - SA_PASSWORD=yourStrong(!)Password
+      - MSSQL_DATABASE=myApp
+      - MSSQL_SLEEP=60
+    # If you want to expose these ports outside your dev PC,
+    # remove the "127.0.0.1:" prefix
+    ports:
+      - 127.0.0.1:1433:1433
+    command: /bin/bash -c '/opt/mssql/bin/sqlservr & echo "wait $$MSSQL_SLEEP sec for DB to start "; sleep $$MSSQL_SLEEP; /opt/mssql-tools/bin/sqlcmd -U sa -P $$SA_PASSWORD -d tempdb -q "EXIT(CREATE DATABASE $$MSSQL_DATABASE)"; wait;'

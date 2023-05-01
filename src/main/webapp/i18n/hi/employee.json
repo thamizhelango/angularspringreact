@@ -1,0 +1,36 @@
+{
+  "myApp": {
+    "employee": {
+      "home": {
+        "title": "Employees",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Employee बनाएँ",
+        "createOrEditLabel": "Employee बनाएँ या संपादित करें",
+        "notFound": "No Employees found"
+      },
+      "created": "एक नया Employee [identifier: {{ param }}] तैयार है",
+      "updated": "एक Employee [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Employee [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Employee [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Employee"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "hireDate": "Hire Date",
+      "salary": "Salary",
+      "commissionPct": "Commission Pct",
+      "job": "Job",
+      "manager": "Manager",
+      "department": "Department",
+      "help": {
+        "firstName": "The firstname attribute."
+      }
+    }
+  }
+}

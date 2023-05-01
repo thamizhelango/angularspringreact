@@ -1,0 +1,26 @@
+{
+  "myApp": {
+    "department": {
+      "home": {
+        "title": "Departments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Department बनाएँ",
+        "createOrEditLabel": "Department बनाएँ या संपादित करें",
+        "notFound": "No Departments found"
+      },
+      "created": "एक नया Department [identifier: {{ param }}] तैयार है",
+      "updated": "एक Department [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Department [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Department [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Department"
+      },
+      "id": "ID",
+      "departmentName": "Department Name",
+      "location": "Location",
+      "employee": "Employee"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "myApp": {
+    "region": {
+      "home": {
+        "title": "Regions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Region बनाएँ",
+        "createOrEditLabel": "Region बनाएँ या संपादित करें",
+        "notFound": "No Regions found"
+      },
+      "created": "एक नया Region [identifier: {{ param }}] तैयार है",
+      "updated": "एक Region [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Region [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Region [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Region"
+      },
+      "id": "ID",
+      "regionName": "Region Name"
+    }
+  }
+}

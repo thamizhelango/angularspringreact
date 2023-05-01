@@ -1,0 +1,25 @@
+{
+  "myApp": {
+    "country": {
+      "home": {
+        "title": "Countries",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Country बनाएँ",
+        "createOrEditLabel": "Country बनाएँ या संपादित करें",
+        "notFound": "No Countries found"
+      },
+      "created": "एक नया Country [identifier: {{ param }}] तैयार है",
+      "updated": "एक Country [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Country [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Country [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "id": "ID",
+      "countryName": "Country Name",
+      "region": "Region"
+    }
+  }
+}

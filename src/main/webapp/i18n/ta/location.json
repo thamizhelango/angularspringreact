@@ -1,0 +1,28 @@
+{
+  "myApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Location-ஐ உருவாக்கு",
+        "createOrEditLabel": "Location -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Locations found"
+      },
+      "created": "Location புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Location மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Location நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Location {{ id }}?"
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "id": "ID",
+      "streetAddress": "Street Address",
+      "postalCode": "Postal Code",
+      "city": "City",
+      "stateProvince": "State Province",
+      "country": "Country"
+    }
+  }
+}

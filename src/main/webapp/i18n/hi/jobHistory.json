@@ -1,0 +1,29 @@
+{
+  "myApp": {
+    "jobHistory": {
+      "home": {
+        "title": "JobHistories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Job History बनाएँ",
+        "createOrEditLabel": "Job History बनाएँ या संपादित करें",
+        "notFound": "No Job Histories found"
+      },
+      "created": "एक नया Job History [identifier: {{ param }}] तैयार है",
+      "updated": "एक Job History [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Job History [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Job History [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Job History"
+      },
+      "id": "ID",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "language": "Language",
+      "job": "Job",
+      "department": "Department",
+      "employee": "Employee"
+    }
+  }
+}

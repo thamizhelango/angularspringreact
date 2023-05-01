@@ -1,0 +1,48 @@
+{
+  "applications": "*",
+  "changelogDate": "20230501161636",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "job_history",
+  "fields": [
+    {
+      "fieldName": "startDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "language",
+      "fieldType": "Language",
+      "fieldValues": "FRENCH,ENGLISH,SPANISH"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "JobHistory",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "job",
+      "ownerSide": true,
+      "relationshipName": "job",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "department",
+      "ownerSide": true,
+      "relationshipName": "department",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "employee",
+      "ownerSide": true,
+      "relationshipName": "employee",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

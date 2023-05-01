@@ -1,0 +1,28 @@
+{
+  "myApp": {
+    "job": {
+      "home": {
+        "title": "Jobs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Job बनाएँ",
+        "createOrEditLabel": "Job बनाएँ या संपादित करें",
+        "notFound": "No Jobs found"
+      },
+      "created": "एक नया Job [identifier: {{ param }}] तैयार है",
+      "updated": "एक Job [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Job [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Job [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Job"
+      },
+      "id": "ID",
+      "jobTitle": "Job Title",
+      "minSalary": "Min Salary",
+      "maxSalary": "Max Salary",
+      "task": "Task",
+      "employee": "Employee"
+    }
+  }
+}
